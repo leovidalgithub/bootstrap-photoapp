@@ -1,0 +1,122 @@
+* {margin: 0; padding: 0; transition: all 1s ease;}
+body { color: white; }
+
+
+/* @begin header #################################################### */
+header {
+	background-image: url( "../img/site_showcase_bg.jpg" );
+	background-size:cover;
+}
+header p { color:white; font-size: 18px; }
+header p:first-child { font-size: 4em; font-weight: bold; }
+header span { color: #00b19a; }
+
+.header-msg {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+	align-content: center;
+	text-align: center;
+}
+.header-msg * { margin-top: 10px; margin-bottom: 0; }
+.header-msg img { display: block; margin-top: 20px; margin-right: 20px; height: 55px; }
+.header-image { 
+	padding-top: 60px;
+	width: 335px;
+	height: 480px;
+}
+@media screen and (max-width: 991px) {
+	.header-msg { height: 450px; }
+	header p { color:white; font-size: 18px; }
+	header p:first-child { font-size: 4em; font-weight: bold;
+	}
+}
+@media screen and (max-width: 480px) {
+	.header-msg { height: 400px; }
+	header p { font-size: 16px; }
+	header p:first-child { font-size: 2.8em;
+	
+	}
+}
+
+/* @begin main #################################################### */
+main {
+	/*font-size: 16px;*/
+	color: #6C6C6C;
+	margin: 60px auto;
+}
+
+main .main-1 {
+	/*border: 1px solid yellow;*/
+}
+main .main-2 {
+	/*border: 1px solid blue;*/
+}
+main .main-3 {
+	/*border: 1px solid red;*/
+}
+main .row {
+	border: 1px solid orange;
+}
+
+main img {
+	width: 100%;
+	height: 100%;
+}
+
+/* @begin footer #################################################### */
+footer {
+	background-color: #00b19a;
+	padding-top: 50px;
+}
+footer img {
+	width: 286px;
+	height: 256px;
+}
+footer .footer-msg {
+	display: flex;
+	flex-flow: column nowrap;
+	justify-content: center;
+	align-items: flex-start;
+	font-size: 22px;
+}
+footer p:first-child { font-size: 1.7em; font-weight: bold; }
+
+footer .footer-msg ul {
+	padding-left: 5px;
+	list-style: none;
+}
+footer .footer-sign {
+	background-color: #333;
+	padding: 30px 40px;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-between;
+	align-items: center;
+}
+footer .sign-options, footer .sign-copy {
+		margin: 0 25px;
+}
+footer .sign-options a {
+	text-decoration: none;
+	color: white;
+	font-size: 1.2em;
+	margin-right: 25px;
+}
+footer .sign-options a:hover {
+	color: #00b19a;
+	font-size: 1.25em;
+}
+footer .sign-copy {
+	font-size: .8em;
+}
+@media screen and (max-width: 816px) {
+	footer .footer-sign {
+		justify-content: center;
+	}
+	footer .sign-options {
+		margin-bottom: 15px;
+	}
+}
+
+/*@media screen and (max-width: 1199px) and (min-width: 587px) {  /* entre 587 y 1199 */
