@@ -3,42 +3,10 @@ body { color: white; }
 
 
 /* @begin header #################################################### */
-header {
-	background-image: url( "../img/site_showcase_bg.jpg" );
-	background-size:cover;
-}
-header p { color:white; font-size: 18px; }
-header p:first-child { font-size: 4em; font-weight: bold; }
-header span { color: #00b19a; }
+header { background-color: #00b19a; }
+header p { font-size: 2.8em; font-weight: bold; }
 
-.header-msg {
-	display: flex;
-	flex-flow: row wrap;
-	justify-content: center;
-	align-content: center;
-	text-align: center;
-}
-.header-msg * { margin-top: 10px; margin-bottom: 0; }
-.header-msg img { display: block; margin-top: 20px; margin-right: 20px; height: 55px; }
-.header-image { 
-	padding-top: 60px;
-	width: 335px;
-	height: 480px;
-}
-@media screen and (max-width: 991px) {
-	.header-msg { height: 450px; }
-	header p { color:white; font-size: 18px; }
-	header p:first-child { font-size: 4em; font-weight: bold;
-	}
-}
-@media screen and (max-width: 480px) {
-	header { background: #333; }
-	.header-msg { height: 400px; }
-	header p { font-size: 16px; }
-	header p:first-child { font-size: 2.8em;
-	
-	}
-}
+.header-msg * { margin: 15px; }
 
 /* @begin main #################################################### */
 main {
@@ -49,6 +17,14 @@ main img {
 	width: 100%;
 	height: 100%;
 }
+main a {
+	color: #333;
+}
+main a:hover { 
+	text-decoration: none;
+	color: orange;
+}
+
 /* @begin footer #################################################### */
 footer {
 	background-color: #00b19a;

@@ -10,28 +10,25 @@
 		<!-- font icons -->
 		<link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
 
-		<link rel="stylesheet" href="css/home.css">
+		<link rel="stylesheet" href="css/about.css">
 </head>
 <body>
 
 <nav class="navbar navbar-light bg-faded">
-
 	  <a class="navbar-brand" href="index.html">Gamma</a>
-
 	  <ul class="nav navbar-nav">
-	    
-	    <li class="nav-item active">
+    
+	    <li class="nav-item">
 	      <a class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a>
 	    </li>
 	    
-	    <li class="nav-item">
+	    <li class="nav-item active">
 	      <a class="nav-link" href="about.html">About</a>
 	    </li>
 	    
 	    <li class="nav-item">
 	      <a class="nav-link" href="contact.html">Contact</a>
 	    </li>
-	  
 	  </ul>
 </nav>
 
@@ -41,13 +38,9 @@
 		<div class="row">
 
 			<div class="header-msg col-sm-offset-1 col-md-7 col-lg-5">
-		          <p>Capture <span>Life</span></p>
-		          <p>A fun and easy way to capture & share the moment you live for</p>
-		          <img class="img-responsive" src="img/icon_app_store.png" alt="">
-		          <img class="img-responsive" src="img/icon_google_play.png" alt="">
+		          <p>About Gamma</p>
 			</div>
 
-			<img class="header-image col-lg-1 hidden-md-down" src="img/site_phone.png" alt="">
 		</div> <!-- @end row -->
 	</header> <!-- @end header -->
 
@@ -57,27 +50,57 @@
     <div class="container">
       <div class="row">
 
-        <div class="main-1 col-xs-12 col-lg-4">
-	      <img class="ximg-responsive" src="img/demo1.png" alt="">
-          <h2>scotcher</h2>
-			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit sunt autem nostrum quam aut amet, qui nam totam nulla ratione modi officiis cum natus possimus unde accusantium, commodi error tenetur. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo cum praesentium quam aliquam! Ea, nihil corrupti unde excepturi aperiam tempore. In maxime dignissimos ipsam voluptatem tempore, ipsa harum culpa aspernatur?</p>
-			<p><a class="btn btn-warning" href="#" role="button">Read more <i class="fa fa-thumbs-up" style="font-size:20px"></i></a></p>
-        </div>
-        
-        <div class="main-2 col-xs-12 col-lg-4">
-	      <img class="ximg-responsive" src="img/demo2.jpg" alt="">
+		<div id="accordion" class="col-md-6 col-lg-8" role="tablist" aria-multiselectable="true">
+		  <div class="panel panel-default">
+		    <div class="panel-heading" role="tab" id="headingOne">
+		      <h4 class="panel-title">
+		        <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+		          Collapsible Group Item #1
+		        </a>
+		      </h4>
+		    </div>
+		    <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+		      Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+		    </div>
+		  </div>
+		  <div class="panel panel-default">
+		    <div class="panel-heading" role="tab" id="headingTwo">
+		      <h4 class="panel-title">
+		        <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+		          Collapsible Group Item #2
+		        </a>
+		      </h4>
+		    </div>
+		    <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+		      Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+		    </div>
+		  </div>
+		  <div class="panel panel-default">
+		    <div class="panel-heading" role="tab" id="headingThree">
+		      <h4 class="panel-title">
+		        <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+		          Collapsible Group Item #3
+		        </a>
+		      </h4>
+		    </div>
+		    <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+		      Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+		    </div>
+		  </div>
+		</div> <!-- @end accodion -->
+
+        <aside class="col-md-6 col-lg-4">
+	      <img src="img/demo2.jpg" alt="">
           <h2>cabalistically</h2>
 			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam ex eius suscipit, debitis asperiores, quaerat molestias laborum animi, pariatur, officiis voluptatem inventore nesciunt. Beatae, soluta, reiciendis. Consequatur unde perspiciatis sequi? Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
 			<p><a class="btn btn-warning" href="#" role="button">Read more <i class="fa fa-thumbs-up" style="font-size:20px"></i></a></p>
-       </div>
-        
-        <div class="main-3 col-xs-12 col-lg-4">
-	      <img class="ximg-responsive" src="img/demo3.jpg" alt="">
-          <h2>jargonium</h2>
-			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas quis omnis voluptatibus ipsa delectus ab magnam libero voluptatem! Nihil fugit in, voluptatum, rem tempore blanditiis iusto incidunt neque cupiditate placeat. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic excepturi, itaque facere quia obcaecati qui veniam placeat culpa, doloribus distinctio modi quibusdam. Quis, magni, et. Sit tenetur eveniet voluptatibus vero.</p>
-			<p><a class="btn btn-warning" href="#" role="button">Read more <i class="fa fa-thumbs-up" style="font-size:20px"></i></a></p>
-        </div>
-      </div>
+       </aside>
+
+
+
+
+  	  </div> <!-- @end row -->
+	</div> <!-- @end container -->
 </main>
       <hr>
 
